@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "end_of_disciple",
+					"strict" : false
+				},
+				{
+					"name" : "disc_wr_en",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_to_mem[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_to_mem[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_to_mem[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_to_mem[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_to_mem[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_to_mem[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_prev[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_prev[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_prev[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_prev[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_prev[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disc_address_prev[5]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "guru_well_behind",
+					"strict" : false
+				},
+				{
+					"name" : "go_disc",
+					"strict" : false
+				},
+				{
+					"name" : "cnt_disc_rdy",
+					"strict" : false
+				},
+				{
+					"name" : "start_step",
+					"strict" : false
+				},
+				{
+					"name" : "duo_formed",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,207 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2
+Eclock_generator
+Z1 w1553696590
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/clock_generator.vhd
+Z5 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/clock_generator.vhd
+l0
+L4 1
+V=e5CEc;0Q>SX?HFnnd_Y50
+!s100 THzURBiN6dhjNPF<;S3nB1
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1620920675
+!i10b 1
+Z8 !s108 1620920673.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/clock_generator.vhd|
+Z10 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/clock_generator.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Atest
+R2
+R3
+DEx4 work 15 clock_generator 0 22 =e5CEc;0Q>SX?HFnnd_Y50
+!i122 0
+l20
+L18 12
+VOMjS5z>FaGB22=HTN@BSS0
+!s100 ]k`QeK95PKLA35SzZ@bPb3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pmy_package
+!i122 1
+Z13 w1620918449
+R0
+Z14 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/step_counter_2.vhd
+Z15 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/step_counter_2.vhd
+l0
+L14 1
+Vg`Oh8n@KN]?eeRA<nV]>33
+!s100 GB]b3^Z5kW4HmKJ:6GeSO1
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1620920675.000000
+Z17 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/step_counter_2.vhd|
+Z18 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/step_counter_2.vhd|
+!i113 1
+R11
+R12
+Estep_counter_2
+R13
+Z19 DPx4 work 10 my_package 0 22 g`Oh8n@KN]?eeRA<nV]>33
+Z20 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 1
+R0
+R14
+R15
+l0
+L31 1
+VeLgJV?8D3=hPULc4QH5Yo3
+!s100 Y_QRdzQR4dZe1eZc<mb<P1
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Aarch
+R19
+R20
+R2
+R3
+DEx4 work 14 step_counter_2 0 22 eLgJV?8D3=hPULc4QH5Yo3
+!i122 1
+l69
+L56 82
+VbkHV3VONA:00QViOFoi2T1
+!s100 9N;6@EWVFb1oAigGe`MaE0
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Estimuli_step_counter_2
+Z21 w1620920636
+R19
+R20
+R2
+R3
+!i122 2
+R0
+Z22 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/stimuli_step_counter_2.vhd
+Z23 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/stimuli_step_counter_2.vhd
+l0
+L6 1
+VG[>>n:SaF@6f``jXRVMJ[2
+!s100 OKWnoOG;80UV_;XBg]7Dd2
+R6
+32
+R7
+!i10b 1
+R16
+Z24 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/stimuli_step_counter_2.vhd|
+Z25 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/stimuli_step_counter_2.vhd|
+!i113 1
+R11
+R12
+Atest
+R19
+R20
+R2
+R3
+DEx4 work 22 stimuli_step_counter_2 0 22 G[>>n:SaF@6f``jXRVMJ[2
+!i122 2
+l39
+L25 100
+V:3>kSIMO2k<ODlmNAaEWC1
+!s100 cblZ;7GAkAz[e1`2_BWTU0
+R6
+32
+R7
+!i10b 1
+R16
+R24
+R25
+!i113 1
+R11
+R12
+Etb_step_counter_2
+Z26 w1620790578
+R19
+R20
+R2
+R3
+!i122 3
+R0
+Z27 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/tb_step_counter_2.vhd
+Z28 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/tb_step_counter_2.vhd
+l0
+L7 1
+VRa>US^c]4;@>dM9HAN3ZM0
+!s100 XJ3WTPUbAAl1`<A1mB^XT0
+R6
+32
+R7
+!i10b 1
+R16
+Z29 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/tb_step_counter_2.vhd|
+!s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/tb_step_counter_2.vhd|
+!i113 1
+R11
+R12
+Atest
+R19
+R20
+R2
+R3
+DEx4 work 17 tb_step_counter_2 0 22 Ra>US^c]4;@>dM9HAN3ZM0
+!i122 3
+l59
+L14 77
+VSoWPIIIgiCi^=VL;JXkHU3
+!s100 FE?a=<X`06[8D:217k:L;3
+R6
+32
+R7
+!i10b 1
+R16
+R29
+Z30 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/sc_2/tb_step_counter_2.vhd|
+!i113 1
+R11
+R12

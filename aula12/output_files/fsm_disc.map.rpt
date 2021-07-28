@@ -1,0 +1,471 @@
+Analysis & Synthesis report for fsm_disc
+Thu Jul  1 11:12:14 2021
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |fsm_disc|STATE
+  9. User-Specified and Inferred Latches
+ 10. General Register Statistics
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Thu Jul  1 11:12:14 2021       ;
+; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                   ; fsm_disc                                    ;
+; Top-level Entity Name           ; fsm_disc                                    ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 12                                          ;
+; Total pins                      ; 42                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA6F31C6       ;                    ;
+; Top-level entity name                                                           ; fsm_disc           ; fsm_disc           ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                    ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                             ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
+; disciple_control.vhd             ; yes             ; User VHDL File  ; /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd ;         ;
+; wisdom_package.vhd               ; yes             ; User VHDL File  ; /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/wisdom_package.vhd   ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------+---------+
+
+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimate of Logic utilization (ALMs needed) ; 22           ;
+;                                             ;              ;
+; Combinational ALUT usage for logic          ; 42           ;
+;     -- 7 input functions                    ; 0            ;
+;     -- 6 input functions                    ; 1            ;
+;     -- 5 input functions                    ; 1            ;
+;     -- 4 input functions                    ; 3            ;
+;     -- <=3 input functions                  ; 37           ;
+;                                             ;              ;
+; Dedicated logic registers                   ; 12           ;
+;                                             ;              ;
+; I/O pins                                    ; 42           ;
+;                                             ;              ;
+; Total DSP Blocks                            ; 0            ;
+;                                             ;              ;
+; Maximum fan-out node                        ; Selector18~0 ;
+; Maximum fan-out                             ; 12           ;
+; Total fan-out                               ; 193          ;
+; Average fan-out                             ; 1.40         ;
++---------------------------------------------+--------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |fsm_disc                  ; 42 (42)             ; 12 (12)                   ; 0                 ; 0          ; 42   ; 0            ; |fsm_disc           ; fsm_disc    ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |fsm_disc|STATE                                                                                                                                                                                                                      ;
++-----------------------+------------------+--------------------+--------------------+------------------+------------------+-----------------+-----------------------+------------+-----------------------+------------------+------------+------------+
+; Name                  ; STATE.CLEAR_PREV ; STATE.CLEAR_BEHIND ; STATE.CHECK_BEHIND ; STATE.CHECK_LAST ; STATE.WRITE_DISC ; STATE.WRITE_DUO ; STATE.CHECK_SAME_ADDR ; STATE.INCR ; STATE.WAIT_COUNT_DISC ; STATE.WRITE_RAND ; STATE.RAND ; STATE.IDLE ;
++-----------------------+------------------+--------------------+--------------------+------------------+------------------+-----------------+-----------------------+------------+-----------------------+------------------+------------+------------+
+; STATE.IDLE            ; 0                ; 0                  ; 0                  ; 0                ; 0                ; 0               ; 0                     ; 0          ; 0                     ; 0                ; 0          ; 0          ;
+; STATE.RAND            ; 0                ; 0                  ; 0                  ; 0                ; 0                ; 0               ; 0                     ; 0          ; 0                     ; 0                ; 1          ; 1          ;
+; STATE.WRITE_RAND      ; 0                ; 0                  ; 0                  ; 0                ; 0                ; 0               ; 0                     ; 0          ; 0                     ; 1                ; 0          ; 1          ;
+; STATE.WAIT_COUNT_DISC ; 0                ; 0                  ; 0                  ; 0                ; 0                ; 0               ; 0                     ; 0          ; 1                     ; 0                ; 0          ; 1          ;
+; STATE.INCR            ; 0                ; 0                  ; 0                  ; 0                ; 0                ; 0               ; 0                     ; 1          ; 0                     ; 0                ; 0          ; 1          ;
+; STATE.CHECK_SAME_ADDR ; 0                ; 0                  ; 0                  ; 0                ; 0                ; 0               ; 1                     ; 0          ; 0                     ; 0                ; 0          ; 1          ;
+; STATE.WRITE_DUO       ; 0                ; 0                  ; 0                  ; 0                ; 0                ; 1               ; 0                     ; 0          ; 0                     ; 0                ; 0          ; 1          ;
+; STATE.WRITE_DISC      ; 0                ; 0                  ; 0                  ; 0                ; 1                ; 0               ; 0                     ; 0          ; 0                     ; 0                ; 0          ; 1          ;
+; STATE.CHECK_LAST      ; 0                ; 0                  ; 0                  ; 1                ; 0                ; 0               ; 0                     ; 0          ; 0                     ; 0                ; 0          ; 1          ;
+; STATE.CHECK_BEHIND    ; 0                ; 0                  ; 1                  ; 0                ; 0                ; 0               ; 0                     ; 0          ; 0                     ; 0                ; 0          ; 1          ;
+; STATE.CLEAR_BEHIND    ; 0                ; 1                  ; 0                  ; 0                ; 0                ; 0               ; 0                     ; 0          ; 0                     ; 0                ; 0          ; 1          ;
+; STATE.CLEAR_PREV      ; 1                ; 0                  ; 0                  ; 0                ; 0                ; 0               ; 0                     ; 0          ; 0                     ; 0                ; 0          ; 1          ;
++-----------------------+------------------+--------------------+--------------------+------------------+------------------+-----------------+-----------------------+------------+-----------------------+------------------+------------+------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; NEXT_STATE.WRITE_DUO_499                            ; Selector18          ; yes                    ;
+; NEXT_STATE.IDLE_613                                 ; Selector18          ; yes                    ;
+; NEXT_STATE.CLEAR_BEHIND_423                         ; Selector18          ; yes                    ;
+; NEXT_STATE.CLEAR_PREV_404                           ; Selector18          ; yes                    ;
+; NEXT_STATE.RAND_594                                 ; Selector18          ; yes                    ;
+; NEXT_STATE.INCR_537                                 ; Selector18          ; yes                    ;
+; NEXT_STATE.WRITE_RAND_575                           ; Selector18          ; yes                    ;
+; NEXT_STATE.WAIT_COUNT_DISC_556                      ; Selector18          ; yes                    ;
+; NEXT_STATE.CHECK_SAME_ADDR_518                      ; Selector18          ; yes                    ;
+; NEXT_STATE.CHECK_LAST_461                           ; Selector18          ; yes                    ;
+; NEXT_STATE.CHECK_BEHIND_442                         ; Selector18          ; yes                    ;
+; NEXT_STATE.WRITE_DISC_480                           ; Selector18          ; yes                    ;
+; Number of user-specified and inferred latches = 12  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 12    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 12                          ;
+;     plain             ; 12                          ;
+; arriav_lcell_comb     ; 48                          ;
+;     normal            ; 48                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 20                          ;
+;         3 data inputs ; 17                          ;
+;         4 data inputs ; 3                           ;
+;         5 data inputs ; 1                           ;
+;         6 data inputs ; 1                           ;
+; boundary_port         ; 42                          ;
+;                       ;                             ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.62                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Thu Jul  1 11:11:38 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off disciple_control -c fsm_disc
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file fsm_guru.vhd
+    Info (12022): Found design unit 1: fsm_guru-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/fsm_guru.vhd Line: 35
+    Info (12023): Found entity 1: fsm_guru File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/fsm_guru.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file base_control.vhd
+    Info (12022): Found design unit 1: base_control-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_control.vhd Line: 39
+    Info (12023): Found entity 1: base_control File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_control.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file coll_ovf.vhd
+    Info (12022): Found design unit 1: coll_ovf-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/coll_ovf.vhd Line: 16
+    Info (12023): Found entity 1: coll_ovf File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/coll_ovf.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file rand_num.vhd
+    Info (12022): Found design unit 1: rand_num-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/rand_num.vhd Line: 23
+    Info (12023): Found entity 1: rand_num File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/rand_num.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file base_datapath.vhd
+    Info (12022): Found design unit 1: base_datapath-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_datapath.vhd Line: 24
+    Info (12023): Found entity 1: base_datapath File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_datapath.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file wisdom_circuit.vhd
+    Info (12022): Found design unit 1: wisdom_circuit-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/wisdom_circuit.vhd Line: 27
+    Info (12023): Found entity 1: wisdom_circuit File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/wisdom_circuit.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file reg.vhd
+    Info (12022): Found design unit 1: reg-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/reg.vhd Line: 22
+    Info (12023): Found entity 1: reg File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/reg.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file alu.vhd
+    Info (12022): Found design unit 1: alu-with_RCA File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/alu.vhd Line: 41
+    Info (12023): Found entity 1: alu File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/alu.vhd Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file xor2.vhd
+    Info (12022): Found design unit 1: xor2-dataflow File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/xor2.vhd Line: 10
+    Info (12023): Found entity 1: xor2 File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/xor2.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file base_circuit.vhd
+    Info (12022): Found design unit 1: base_circuit-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_circuit.vhd Line: 25
+    Info (12023): Found entity 1: base_circuit File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_circuit.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file num_gen.vhd
+    Info (12022): Found design unit 1: num_gen-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/num_gen.vhd Line: 25
+    Info (12023): Found entity 1: num_gen File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/num_gen.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file full_adder.vhd
+    Info (12022): Found design unit 1: full_adder_1-dataflow File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/full_adder.vhd Line: 15
+    Info (12023): Found entity 1: full_adder_1 File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/full_adder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file base_circuit_extended.vhd
+    Info (12022): Found design unit 1: base_circuit_extended-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_circuit_extended.vhd Line: 37
+    Info (12023): Found entity 1: base_circuit_extended File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/base_circuit_extended.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file galois_2bits.vhd
+    Info (12022): Found design unit 1: Galois_2bits-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/galois_2bits.vhd Line: 24
+    Info (12023): Found entity 1: Galois_2bits File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/galois_2bits.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file code_gen.vhd
+    Info (12022): Found design unit 1: code_gen-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/code_gen.vhd Line: 26
+    Info (12023): Found entity 1: code_gen File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/code_gen.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file disciple_control.vhd
+    Info (12022): Found design unit 1: fsm_disc-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 26
+    Info (12023): Found entity 1: fsm_disc File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file reg_bank.vhd
+    Info (12022): Found design unit 1: reg_bank-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/reg_bank.vhd Line: 28
+    Info (12023): Found entity 1: reg_bank File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/reg_bank.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file rc_adder.vhd
+    Info (12022): Found design unit 1: rc_adder-structural File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/rc_adder.vhd Line: 20
+    Info (12023): Found entity 1: rc_adder File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/rc_adder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file main.vhd
+    Info (12022): Found design unit 1: main-arquitetura File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/main.vhd Line: 14
+    Info (12023): Found entity 1: main File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/main.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file counter_trigger.vhd
+    Info (12022): Found design unit 1: counter_trigger-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/counter_trigger.vhd Line: 34
+    Info (12023): Found entity 1: counter_trigger File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/counter_trigger.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file fsm_main.vhd
+    Info (12022): Found design unit 1: fsm_main-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/fsm_main.vhd Line: 40
+    Info (12023): Found entity 1: fsm_main File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/fsm_main.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file or2.vhd
+    Info (12022): Found design unit 1: or_2-dataflow File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/or2.vhd Line: 10
+    Info (12023): Found entity 1: or_2 File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/or2.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file mem_2port.vhd
+    Info (12022): Found design unit 1: mem_2port-SYN File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/mem_2port.vhd Line: 58
+    Info (12023): Found entity 1: mem_2port File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/mem_2port.vhd Line: 42
+Info (12021): Found 2 design units, including 1 entities, in source file step_counter.vhd
+    Info (12022): Found design unit 1: step_counter-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/step_counter.vhd Line: 25
+    Info (12023): Found entity 1: step_counter File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/step_counter.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file holder.vhd
+    Info (12022): Found design unit 1: holder-fsm_arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/holder.vhd Line: 11
+    Info (12023): Found entity 1: holder File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/holder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file fsm_init.vhd
+    Info (12022): Found design unit 1: fsm_init-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/fsm_init.vhd Line: 32
+    Info (12023): Found entity 1: fsm_init File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/fsm_init.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file comparator.vhd
+    Info (12022): Found design unit 1: comparator-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/comparator.vhd Line: 28
+    Info (12023): Found entity 1: comparator File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/comparator.vhd Line: 18
+Info (12021): Found 2 design units, including 1 entities, in source file button_handler.vhd
+    Info (12022): Found design unit 1: button_handler-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/button_handler.vhd Line: 38
+    Info (12023): Found entity 1: button_handler File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/button_handler.vhd Line: 25
+Info (12021): Found 2 design units, including 1 entities, in source file referee.vhd
+    Info (12022): Found design unit 1: referee-fsm_arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/referee.vhd Line: 14
+    Info (12023): Found entity 1: referee File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/referee.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file wisdom_package.vhd
+    Info (12022): Found design unit 1: wisdom_package File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/wisdom_package.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file disc_datapath.vhd
+    Info (12022): Found design unit 1: disc_datapath-arch File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disc_datapath.vhd Line: 23
+    Info (12023): Found entity 1: disc_datapath File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disc_datapath.vhd Line: 5
+Info (12127): Elaborating entity "fsm_disc" for the top level hierarchy
+Warning (10492): VHDL Process Statement warning at disciple_control.vhd(83): signal "guru_well_behind" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 83
+Warning (10492): VHDL Process Statement warning at disciple_control.vhd(85): signal "guru_well_behind" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 85
+Warning (10631): VHDL Process Statement warning at disciple_control.vhd(42): inferring latch(es) for signal or variable "NEXT_STATE", which holds its previous value in one or more paths through the process File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Warning (10873): Using initial value X (don't care) for net "flags_2_dp.rb_INIT_en" at disciple_control.vhd(19) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 19
+Warning (10873): Using initial value X (don't care) for net "flags_2_mem.mem_b_addr" at disciple_control.vhd(20) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+Warning (10873): Using initial value X (don't care) for net "flags_2_mem.data_b" at disciple_control.vhd(20) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+Info (10041): Inferred latch for "NEXT_STATE.CLEAR_PREV" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.CLEAR_BEHIND" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.CHECK_BEHIND" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.CHECK_LAST" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.WRITE_DISC" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.WRITE_DUO" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.CHECK_SAME_ADDR" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.INCR" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.WAIT_COUNT_DISC" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.WRITE_RAND" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.RAND" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Info (10041): Inferred latch for "NEXT_STATE.IDLE" at disciple_control.vhd(42) File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+Warning (13012): Latch NEXT_STATE.CHECK_SAME_ADDR_518 has unsafe behavior File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal end_of_disc File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 14
+Warning (13012): Latch NEXT_STATE.CHECK_LAST_461 has unsafe behavior File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal STATE.CHECK_LAST File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 32
+Warning (13012): Latch NEXT_STATE.CHECK_BEHIND_442 has unsafe behavior File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 42
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal end_of_disc File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 14
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "flags_2_dp.cg_sel.GURU" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 19
+    Warning (13410): Pin "flags_2_dp.rb_out_sel.REG_DISC_PREV_OUT" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 19
+    Warning (13410): Pin "flags_2_dp.rb_out_sel.REG_DISC_OUT" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 19
+    Warning (13410): Pin "flags_2_dp.rb_out_sel.INIT_OUT" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 19
+    Warning (13410): Pin "flags_2_dp.rb_INIT_en" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 19
+    Warning (13410): Pin "flags_2_dp.ng_rand_zero" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 19
+    Warning (13410): Pin "flags_2_mem.cg_sel.GURU" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[0]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[1]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[2]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[3]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[4]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[5]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[6]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.data_b[7]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.mem_b_addr[0]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.mem_b_addr[1]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.mem_b_addr[2]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.mem_b_addr[3]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.mem_b_addr[4]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+    Warning (13410): Pin "flags_2_mem.mem_b_addr[5]" is stuck at GND File: /home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/disciple_control.vhd Line: 20
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 84 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 8 input pins
+    Info (21059): Implemented 34 output pins
+    Info (21061): Implemented 42 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 37 warnings
+    Info: Peak virtual memory: 994 megabytes
+    Info: Processing ended: Thu Jul  1 11:12:14 2021
+    Info: Elapsed time: 00:00:36
+    Info: Total CPU time (on all processors): 00:00:28
+
+

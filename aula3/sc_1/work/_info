@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula3/sc_1
+Pmy_package
+!i122 0
+Z1 w1619651370
+R0
+Z2 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula3/sc_1/step_counter_1.vhd
+Z3 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula3/sc_1/step_counter_1.vhd
+l0
+L1 1
+VZN4lFDiXWCh1[0_bUBXbW0
+!s100 M49O]eSloQeoaHk`JWU7g0
+Z4 OV;C;2021.1;73
+32
+Z5 !s110 1619704996
+!i10b 1
+Z6 !s108 1619704996.000000
+Z7 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula3/sc_1/step_counter_1.vhd|
+!s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula3/sc_1/step_counter_1.vhd|
+!i113 1
+Z8 o-work work
+Z9 tExplicit 1 CvgOpt 0
+Estep_counter
+R1
+Z10 DPx4 work 10 my_package 0 22 ZN4lFDiXWCh1[0_bUBXbW0
+Z11 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+R2
+R3
+l0
+L19 1
+VRbkHN:ZX9>igbY;XNLXaN0
+!s100 ElaVHa4AjZDc7Ke``Thj10
+R4
+32
+R5
+!i10b 1
+R6
+R7
+Z14 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula3/sc_1/step_counter_1.vhd|
+!i113 1
+R8
+R9
+Aarch
+R10
+R11
+R12
+R13
+DEx4 work 12 step_counter 0 22 RbkHN:ZX9>igbY;XNLXaN0
+!i122 0
+l50
+L38 73
+VRHUYJM@<ZBzl]aPYcgSM`3
+!s100 XbN8gn4SMCSnQ_Gi6:>_l2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R14
+!i113 1
+R8
+R9

@@ -1,0 +1,112 @@
+Restore Archived Project report for base_circuit_extended
+Tue Jun 29 10:54:14 2021
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Jun 29 10:54:14 2021 ;
+; Revision Name                   ; base_circuit_extended                 ;
+; Top-level Entity Name           ; base_circuit_extended                 ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Warning (292006): Can't contact license server "1800@license" -- this server will be ignored.
+Warning (292006): Can't contact license server "1800@license.lme.usp.br" -- this server will be ignored.
+Info: Successfully restored '/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.qar' into the '/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/' directory
+Info: Generated report 'base_circuit_extended.restore.rpt'
+Info (23030): Evaluation of Tcl script /opt/altera/19.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 1011 megabytes
+    Info: Processing ended: Tue Jun 29 10:54:14 2021
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-----------------------------------+
+; Files Restored                    ;
++-----------------------------------+
+; File Name                         ;
++-----------------------------------+
+; qar_info.json                     ;
+; alu.vhd                           ;
+; base_circuit.vhd                  ;
+; base_circuit_extended.qpf         ;
+; base_circuit_extended.qsf         ;
+; base_circuit_extended.vhd         ;
+; base_control.vhd                  ;
+; base_datapath.vhd                 ;
+; button_handler.vhd                ;
+; clock_generator.vhd               ;
+; code_gen.vhd                      ;
+; coll_ovf.vhd                      ;
+; comparator.vhd                    ;
+; counter_trigger.vhd               ;
+; fsm_guru.vhd                      ;
+; fsm_init.vhd                      ;
+; fsm_main.vhd                      ;
+; full_adder.vhd                    ;
+; galois_2bits.vhd                  ;
+; holder.vhd                        ;
+; mem_2port.vhd                     ;
+; num_gen.vhd                       ;
+; or2.vhd                           ;
+; rand_num.vhd                      ;
+; rc_adder.vhd                      ;
+; referee.vhd                       ;
+; reg.vhd                           ;
+; reg_bank.vhd                      ;
+; run_sim.txt                       ;
+; step_counter.vhd                  ;
+; stimuli_base_circuit_extended.vhd ;
+; tb_base_circuit_extended.vhd      ;
+; wisdom_circuit.vhd                ;
+; wisdom_package.vhd                ;
+; xor2.vhd                          ;
+; assignment_defaults.qdf           ;
++-----------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

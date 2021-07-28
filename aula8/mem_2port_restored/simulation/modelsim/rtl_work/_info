@@ -1,0 +1,140 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/simulation/modelsim
+Emem_2port
+Z1 w1622733920
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 GX]PGX0dkGdbU698H0h^l0
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z5 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/mem_2port.vhd
+Z6 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/mem_2port.vhd
+l0
+L42 1
+VA@nIFTk`oVI]hWh76A_113
+!s100 <0jT_TZnAA2iJ=Lk75_KW3
+Z7 OV;C;2021.1;73
+31
+Z8 !s110 1622726978
+!i10b 1
+Z9 !s108 1622726978.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/mem_2port.vhd|
+Z11 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/mem_2port.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Asyn
+R2
+R3
+R4
+Z14 DEx4 work 9 mem_2port 0 22 A@nIFTk`oVI]hWh76A_113
+!i122 3
+l63
+Z15 L58 53
+Z16 VIW1fhNNRc8ERG4W<>1o112
+Z17 !s100 gDRi=7a=783<@Z;M?n5WQ0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Estimuli_mem_2port
+Z18 w1622503840
+Z19 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R3
+R4
+!i122 2
+R0
+Z20 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/stimuli_mem_2port.vhd
+Z21 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/stimuli_mem_2port.vhd
+l0
+L6 1
+VSngKA?KZ8;::K;16OEbiQ1
+!s100 8WV8j0i9i`:0hY@Hj[ET82
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/stimuli_mem_2port.vhd|
+Z23 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/stimuli_mem_2port.vhd|
+!i113 1
+R12
+R13
+Atest
+R19
+R3
+R4
+DEx4 work 17 stimuli_mem_2port 0 22 SngKA?KZ8;::K;16OEbiQ1
+!i122 2
+l42
+L28 55
+VEV_5=mR_[EOnhmKm[L[5D1
+!s100 dRHRM<E6HHhE40i48_>3W0
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Etb_mem_2port
+Z24 w1622502838
+R19
+R3
+R4
+!i122 1
+R0
+Z25 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/testbench_mem_2port.vhd
+Z26 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/testbench_mem_2port.vhd
+l0
+L6 1
+VMoI02ML@So0CHVPF4VM_F1
+!s100 AegUWVH@6Q4ERRHIiTLPc0
+R7
+31
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/testbench_mem_2port.vhd|
+Z28 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451/aula8/mem_2port_restored/testbench_mem_2port.vhd|
+!i113 1
+R12
+R13
+Atest
+R19
+R3
+R4
+DEx4 work 12 tb_mem_2port 0 22 MoI02ML@So0CHVPF4VM_F1
+!i122 1
+l58
+L12 77
+Vgf91E;M@QGg4LZ[`V72EP2
+!s100 3Qa9o3B8ZJE85ZO9@ZdLc0
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13

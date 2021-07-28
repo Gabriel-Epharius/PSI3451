@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'go_disc'
+Slack : -8.250
+TNS   : -51.306
+
+Type  : Slow 1100mV 85C Model Setup 'clock'
+Slack : -3.323
+TNS   : -48.758
+
+Type  : Slow 1100mV 85C Model Hold 'go_disc'
+Slack : -1.994
+TNS   : -9.704
+
+Type  : Slow 1100mV 85C Model Hold 'clock'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.394
+TNS   : -20.035
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'go_disc'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'go_disc'
+Slack : -8.017
+TNS   : -50.794
+
+Type  : Slow 1100mV 0C Model Setup 'clock'
+Slack : -3.170
+TNS   : -46.973
+
+Type  : Slow 1100mV 0C Model Hold 'go_disc'
+Slack : -1.871
+TNS   : -9.000
+
+Type  : Slow 1100mV 0C Model Hold 'clock'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.394
+TNS   : -21.585
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'go_disc'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'go_disc'
+Slack : -5.092
+TNS   : -27.330
+
+Type  : Fast 1100mV 85C Model Setup 'clock'
+Slack : -1.936
+TNS   : -22.032
+
+Type  : Fast 1100mV 85C Model Hold 'go_disc'
+Slack : -1.187
+TNS   : -5.953
+
+Type  : Fast 1100mV 85C Model Hold 'clock'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.082
+TNS   : -2.987
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'go_disc'
+Slack : -0.011
+TNS   : -0.019
+
+Type  : Fast 1100mV 0C Model Setup 'go_disc'
+Slack : -4.388
+TNS   : -23.510
+
+Type  : Fast 1100mV 0C Model Setup 'clock'
+Slack : -1.874
+TNS   : -20.603
+
+Type  : Fast 1100mV 0C Model Hold 'go_disc'
+Slack : -1.176
+TNS   : -6.134
+
+Type  : Fast 1100mV 0C Model Hold 'clock'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.082
+TNS   : -2.983
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'go_disc'
+Slack : -0.022
+TNS   : -0.039
+
+------------------------------------------------------------

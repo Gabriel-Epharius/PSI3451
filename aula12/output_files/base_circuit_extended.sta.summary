@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'referee:ref|stateD_reg.waitNClk'
+Slack : -8.152
+TNS   : -227.105
+
+Type  : Slow 1100mV 85C Model Setup 'referee:ref|stateG_reg.waitNClk'
+Slack : -7.339
+TNS   : -219.297
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -7.143
+TNS   : -691.471
+
+Type  : Slow 1100mV 85C Model Setup 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -4.666
+TNS   : -8.891
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.893
+TNS   : -82.720
+
+Type  : Slow 1100mV 85C Model Hold 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.601
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.779
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.892
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -270.012
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'referee:ref|stateD_reg.waitNClk'
+Slack : -8.118
+TNS   : -230.152
+
+Type  : Slow 1100mV 0C Model Setup 'referee:ref|stateG_reg.waitNClk'
+Slack : -7.504
+TNS   : -221.877
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -6.775
+TNS   : -667.666
+
+Type  : Slow 1100mV 0C Model Setup 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -4.632
+TNS   : -8.963
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.979
+TNS   : -85.256
+
+Type  : Slow 1100mV 0C Model Hold 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.644
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.867
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -284.024
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -4.769
+TNS   : -338.191
+
+Type  : Fast 1100mV 85C Model Setup 'referee:ref|stateD_reg.waitNClk'
+Slack : -4.617
+TNS   : -118.998
+
+Type  : Fast 1100mV 85C Model Setup 'referee:ref|stateG_reg.waitNClk'
+Slack : -3.803
+TNS   : -115.368
+
+Type  : Fast 1100mV 85C Model Setup 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -2.217
+TNS   : -4.079
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.597
+TNS   : -38.103
+
+Type  : Fast 1100mV 85C Model Hold 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.683
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.719
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -136.270
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'referee:ref|stateD_reg.waitNClk'
+Slack : -4.271
+TNS   : -112.936
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -4.038
+TNS   : -278.092
+
+Type  : Fast 1100mV 0C Model Setup 'referee:ref|stateG_reg.waitNClk'
+Slack : -3.622
+TNS   : -109.656
+
+Type  : Fast 1100mV 0C Model Setup 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -2.050
+TNS   : -3.819
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.606
+TNS   : -38.552
+
+Type  : Fast 1100mV 0C Model Hold 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -136.377
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'referee:ref|stateG_reg.waitNClk'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'referee:ref|stateD_reg.waitNClk'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'base_circuit:basis|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.414
+TNS   : 0.000
+
+------------------------------------------------------------

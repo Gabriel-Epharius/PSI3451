@@ -1,0 +1,304 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/simulation/modelsim
+Eclock_generator
+Z1 w1624556412
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z4 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/clock_generator.vhd
+Z5 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/clock_generator.vhd
+l0
+L4 1
+V2_bJ]akz_kmd=@W>3CS=:3
+!s100 ;CejgP[@BUbDG7?1@oFm?1
+Z6 OV;C;2021.1;73
+31
+Z7 !s110 1627473324
+!i10b 1
+Z8 !s108 1627473323.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/clock_generator.vhd|
+Z10 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/clock_generator.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Atest
+R2
+R3
+DEx4 work 15 clock_generator 0 22 2_bJ]akz_kmd=@W>3CS=:3
+!i122 4
+l20
+L18 12
+VWkDNoW15ZeF^B_RQI[UYn2
+!s100 ]k`QeK95PKLA35SzZ@bPb3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ed_reg
+Z13 w1622850434
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 3
+R0
+Z15 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/d_reg.vhd
+Z16 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/d_reg.vhd
+l0
+L6 1
+V7V0DN1CnC0CJ?H=<V4EdJ2
+!s100 Poj[OPe;K>fkeiY<IgW9c0
+R6
+31
+Z17 !s110 1627473323
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/d_reg.vhd|
+Z19 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/d_reg.vhd|
+!i113 1
+R11
+R12
+Aarch
+R14
+R2
+R3
+DEx4 work 5 d_reg 0 22 7V0DN1CnC0CJ?H=<V4EdJ2
+!i122 3
+l23
+L19 19
+VfnBaf?1FUTRDkblCKMBHF3
+!s100 EPS_0BMN<55l6mTBba5eH1
+R6
+31
+R17
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Eflsr
+Z20 w1627411565
+R2
+R3
+!i122 2
+R0
+Z21 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.vhd
+Z22 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.vhd
+l0
+L4 1
+VHhI6IFMc;^mf5d<dP<>9a0
+!s100 Y6jWSLK^S[4==FPlEH_`Z3
+R6
+31
+R17
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.vhd|
+Z24 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 4 flsr 0 22 HhI6IFMc;^mf5d<dP<>9a0
+!i122 2
+l41
+L13 54
+V>OgoXhbUAJ_]jZVQhAfaK2
+!s100 CgH]DRHOLTL35Nmi47<Kk0
+R6
+31
+R17
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Erand_num
+Z25 w1624555415
+R2
+R3
+!i122 0
+R0
+Z26 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/rand_num.vhd
+Z27 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/rand_num.vhd
+l0
+L4 1
+V:^K3FZXa1=<j4Fm1fWN=B0
+!s100 e2c0Fj`[Bkbh`m9FljISe0
+R6
+31
+R17
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/rand_num.vhd|
+Z29 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/rand_num.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 8 rand_num 0 22 :^K3FZXa1=<j4Fm1fWN=B0
+!i122 0
+l24
+L11 20
+VczIM[dnY8N1O`E^VoHQ5L1
+!s100 Hi<ibnDoU?5QPQ9GUhK2f3
+R6
+31
+R17
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R11
+R12
+Estimuli
+Z30 w1624556312
+R14
+R2
+R3
+!i122 5
+R0
+Z31 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/stimuli.vhd
+Z32 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/stimuli.vhd
+l0
+L5 1
+VlCEdz^2=Qk?I?QJ7;n34V2
+!s100 TJ7_^WkifMYE@odCcdbIa0
+R6
+31
+R7
+!i10b 1
+Z33 !s108 1627473324.000000
+Z34 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/stimuli.vhd|
+Z35 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/stimuli.vhd|
+!i113 1
+R11
+R12
+Atest
+R14
+R2
+R3
+DEx4 work 7 stimuli 0 22 lCEdz^2=Qk?I?QJ7;n34V2
+!i122 5
+l33
+L19 33
+V9AGSK?EF3GJ7LHZf27<3E1
+!s100 m=@]7RWMB3gf<PE_ndcU92
+R6
+31
+R7
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R11
+R12
+Etb_rand_num
+Z36 w1624558323
+R14
+R2
+R3
+!i122 6
+R0
+Z37 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/testbench_rand_num.vhd
+Z38 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/testbench_rand_num.vhd
+l0
+L6 1
+Vo2N4<_Ekez]kWka5N1gQD2
+!s100 i228GGk]A_o0<dQb2l;k=1
+R6
+31
+R7
+!i10b 1
+R33
+Z39 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/testbench_rand_num.vhd|
+!s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/testbench_rand_num.vhd|
+!i113 1
+R11
+R12
+Aarch
+R14
+R2
+R3
+DEx4 work 11 tb_rand_num 0 22 o2N4<_Ekez]kWka5N1gQD2
+!i122 6
+l40
+L13 36
+VeQJThHKC6oFa17>_Nc]ZP0
+!s100 LJjoW4PmaF6@ZmhE2`[c=0
+R6
+31
+R7
+!i10b 1
+R33
+R39
+Z40 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/testbench_rand_num.vhd|
+!i113 1
+R11
+R12
+Exor2
+Z41 w1622915849
+R2
+R3
+!i122 1
+R0
+Z42 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/xor2.vhd
+Z43 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/xor2.vhd
+l0
+L4 1
+V1BK4Tj^N4JEG?YZ?eiC>l0
+!s100 Qbf=jin8XYd7]0V_`F]`h0
+R6
+31
+R17
+!i10b 1
+R8
+Z44 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/xor2.vhd|
+Z45 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/xor2.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R2
+R3
+DEx4 work 4 xor2 0 22 1BK4Tj^N4JEG?YZ?eiC>l0
+!i122 1
+l12
+L10 5
+VaWc6:8hgmDj@@fDM`lfGS2
+!s100 9[2iNimR7GiGmjceRHTL12
+R6
+31
+R17
+!i10b 1
+R8
+R44
+R45
+!i113 1
+R11
+R12

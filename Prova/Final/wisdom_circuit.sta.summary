@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : -9.602
+TNS   : -274.287
+
+Type  : Slow 1100mV 85C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : -9.500
+TNS   : -275.570
+
+Type  : Slow 1100mV 85C Model Setup 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : -7.912
+TNS   : -68.286
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -7.137
+TNS   : -1053.226
+
+Type  : Slow 1100mV 85C Model Setup 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -5.997
+TNS   : -11.596
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -3.037
+TNS   : -64.810
+
+Type  : Slow 1100mV 85C Model Hold 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 1.146
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 1.156
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -4.555
+TNS   : -575.883
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : -9.807
+TNS   : -282.903
+
+Type  : Slow 1100mV 0C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : -9.751
+TNS   : -285.071
+
+Type  : Slow 1100mV 0C Model Setup 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : -7.904
+TNS   : -69.455
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -6.931
+TNS   : -1030.711
+
+Type  : Slow 1100mV 0C Model Setup 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -6.109
+TNS   : -11.849
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -3.046
+TNS   : -67.547
+
+Type  : Slow 1100mV 0C Model Hold 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 1.001
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 1.042
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -4.555
+TNS   : -576.450
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : -3.843
+TNS   : -103.146
+
+Type  : Fast 1100mV 85C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : -3.820
+TNS   : -102.998
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -3.373
+TNS   : -332.128
+
+Type  : Fast 1100mV 85C Model Setup 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : -3.141
+TNS   : -22.026
+
+Type  : Fast 1100mV 85C Model Setup 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -1.909
+TNS   : -3.670
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.351
+TNS   : -19.582
+
+Type  : Fast 1100mV 85C Model Hold 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 0.614
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -142.315
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : -3.572
+TNS   : -97.488
+
+Type  : Fast 1100mV 0C Model Setup 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : -3.572
+TNS   : -97.371
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.826
+TNS   : -265.312
+
+Type  : Fast 1100mV 0C Model Setup 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : -2.820
+TNS   : -20.179
+
+Type  : Fast 1100mV 0C Model Setup 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : -1.759
+TNS   : -3.374
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.313
+TNS   : -19.546
+
+Type  : Fast 1100mV 0C Model Hold 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.213
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 0.513
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 0.554
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.636
+TNS   : -142.336
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateD_reg.waitNClk'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|referee:ref|stateG_reg.waitNClk'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'disciple_circuit:cir2|disc_datapath:dp|reg_bank:rb|reg:reg_GURU|q_s[6]'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'wisdom_circuit_with_referee:cir1|circuit_wisdom_aula_11:guru|base_circuit:base|base_control:control|fsm_main:main|STATE.STEP_ACTIVATION'
+Slack : 0.450
+TNS   : 0.000
+
+------------------------------------------------------------

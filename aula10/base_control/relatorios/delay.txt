@@ -1,0 +1,3 @@
+
+
+-no_io_terminals and -no_int_terminals, no paths reported

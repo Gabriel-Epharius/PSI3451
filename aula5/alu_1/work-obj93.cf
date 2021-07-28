@@ -1,0 +1,15 @@
+v 4
+file . "stimuli_alu.vhd" "4aa752f7c4bc9c6962cd4fc2b2b7b84de875fe49" "20210513141300.549":
+  entity stimuli_module at 1( 0) + 0 on 31;
+  architecture test of stimuli_module at 18( 255) + 0 on 32;
+file . "alu_1.vhd" "8c8266b584ff28ec6a033fe5260110baad26cd24" "20210520143258.250":
+  entity alu at 18( 608) + 0 on 39;
+  architecture with_rca of alu at 44( 1229) + 0 on 40;
+file . "testbench_alu.vhd" "b30016d63547af6dbf8743449d58a9d06c03d933" "20210513141326.306":
+  entity tb_alu at 1( 0) + 0 on 33;
+  architecture test of tb_alu at 11( 132) + 0 on 34;
+file . "rc_adder_2.vhd" "9ac5bb41940aab04d7a7b5729c44ea0cfa0c31d8" "20210513141401.692":
+  entity full_adder_1 at 1( 0) + 0 on 35;
+  architecture dataflow of full_adder_1 at 15( 168) + 0 on 36;
+  entity rc_adder_2 at 30( 605) + 0 on 37;
+  architecture structural of rc_adder_2 at 49( 891) + 0 on 38;

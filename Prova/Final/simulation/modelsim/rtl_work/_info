@@ -1,0 +1,1654 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/simulation/modelsim
+Eaddress_counter
+Z1 w1593736256
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 34
+R0
+Z5 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/address_counter.vhd
+Z6 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/address_counter.vhd
+l0
+L5 1
+VD]kQOoWIXF>7;zg2O3Coa2
+!s100 bQo?PRg@kFSjaDASE^>B@1
+Z7 OV;C;2021.1;73
+31
+Z8 !s110 1627483534
+!i10b 1
+Z9 !s108 1627483533.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/address_counter.vhd|
+Z11 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/address_counter.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 15 address_counter 0 22 D]kQOoWIXF>7;zg2O3Coa2
+!i122 34
+l23
+L20 22
+VIb71>6X3@9QcEXgZ722XA2
+!s100 ?Sb[C[:8oQVDZD=Ka40Vf0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+Z14 w1595246504
+R2
+R3
+R4
+!i122 7
+R0
+Z15 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/new_alu.vhd
+Z16 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/new_alu.vhd
+l0
+L24 1
+Vj>:Snn3IfPNP>kCPS7b052
+!s100 a[BIJF1IfeijjSCzG@<Ld1
+R7
+31
+Z17 !s110 1627483529
+!i10b 1
+Z18 !s108 1627483529.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/new_alu.vhd|
+Z20 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/new_alu.vhd|
+!i113 1
+R12
+R13
+Awith_rca
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 j>:Snn3IfPNP>kCPS7b052
+!i122 7
+l68
+L41 57
+V_Ezd]TZZVQJODaNGRlS5F0
+!s100 ]bH7iPBIF1:>ScHCZ`5Q43
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Ebase_circuit
+Z21 w1595246502
+Z22 DPx4 work 14 wisdom_package 0 22 OX49O`T:?4OclS3_L790M0
+Z23 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z24 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R3
+R4
+!i122 32
+R0
+Z25 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_circuit.vhd
+Z26 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_circuit.vhd
+l0
+L7 1
+VN?][>l1m@<K90Y8z^1i>Y3
+!s100 6f0;eU90S;F<?<9A5TRa;0
+R7
+31
+Z27 !s110 1627483533
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_circuit.vhd|
+Z29 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_circuit.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R23
+R24
+R3
+R4
+DEx4 work 12 base_circuit 0 22 N?][>l1m@<K90Y8z^1i>Y3
+!i122 32
+l88
+L25 119
+V4UaieGHRFF1fSCO5oFZJO0
+!s100 7^?R@1hG8olX2PWEm7jB?3
+R7
+31
+R27
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Ebase_control
+R21
+R22
+R23
+R24
+R3
+R4
+!i122 31
+R0
+Z30 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_control.vhd
+Z31 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_control.vhd
+l0
+L20 1
+Vi8[7z1OI?GX9`?3]cVOWd2
+!s100 g5[TUcOcJcj093LUOhHP^3
+R7
+31
+R27
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_control.vhd|
+Z33 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_control.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R23
+R24
+R3
+R4
+DEx4 work 12 base_control 0 22 i8[7z1OI?GX9`?3]cVOWd2
+!i122 31
+l129
+L39 192
+V>MF8AK?6clf8QI:laFlmQ2
+!s100 Sh5h0NUgNd4;`9J?9RSL31
+R7
+31
+R27
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Ebase_datapath
+R21
+R22
+R3
+R4
+!i122 30
+R0
+Z34 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_datapath.vhd
+Z35 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_datapath.vhd
+l0
+L5 1
+VQA`oJOn]JPR1a1^9XZijm0
+!s100 Q^@Od[V8KJ3m`[863WG@<0
+R7
+31
+R27
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_datapath.vhd|
+Z37 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/base_datapath.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R3
+R4
+DEx4 work 13 base_datapath 0 22 QA`oJOn]JPR1a1^9XZijm0
+!i122 30
+l133
+L24 181
+V[1S[YAhjI]zZLF0iJM_oa2
+!s100 HE0OEd563HS_3ROSCC?]U2
+R7
+31
+R27
+!i10b 1
+R9
+R36
+R37
+!i113 1
+R12
+R13
+Ebutton_handler
+R21
+R22
+R3
+R4
+!i122 29
+R0
+Z38 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/button_handler.vhd
+Z39 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/button_handler.vhd
+l0
+L25 1
+VXaUVaAK`_Gc;5_jfP@NHc2
+!s100 jYD06=3AWzlG^nnmX3:[`3
+R7
+31
+R27
+!i10b 1
+Z40 !s108 1627483532.000000
+Z41 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/button_handler.vhd|
+Z42 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/button_handler.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R3
+R4
+DEx4 work 14 button_handler 0 22 XaUVaAK`_Gc;5_jfP@NHc2
+!i122 29
+l49
+L38 59
+V]^@ddPeH89FT:7Ya[F:KF3
+!s100 I5Sz<A^;ik^0fUjYUeAW11
+R7
+31
+R27
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R12
+R13
+Ecircuit_wisdom_aula_11
+R21
+R22
+R2
+R3
+R4
+!i122 28
+R0
+Z43 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/circuit_wisdom_aula_11.vhd
+Z44 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/circuit_wisdom_aula_11.vhd
+l0
+Z45 L12 1
+VXhTKJ7j2>KiGTVh_c1Y3A2
+!s100 2_46NE>8OnbEEEONGhY1z1
+R7
+31
+Z46 !s110 1627483532
+!i10b 1
+R40
+Z47 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/circuit_wisdom_aula_11.vhd|
+Z48 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/circuit_wisdom_aula_11.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R2
+R3
+R4
+DEx4 work 22 circuit_wisdom_aula_11 0 22 XhTKJ7j2>KiGTVh_c1Y3A2
+!i122 28
+l124
+L35 170
+VRazjg@RUEZ6O;l`5L`jnP3
+!s100 P=R_@zkOlW?5B;l[YT?2K1
+R7
+31
+R46
+!i10b 1
+R40
+R47
+R48
+!i113 1
+R12
+R13
+Eclock_generator
+Z49 w1590874142
+R3
+R4
+!i122 33
+R0
+Z50 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/clock_generator.vhd
+Z51 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/clock_generator.vhd
+l0
+L4 1
+Vd0No>ID:cWi_7A64in@:E0
+!s100 X^JdaX4Oe>YcKeiJ8`lQI2
+R7
+31
+R27
+!i10b 1
+R9
+Z52 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/clock_generator.vhd|
+Z53 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/clock_generator.vhd|
+!i113 1
+R12
+R13
+Atest
+R3
+R4
+DEx4 work 15 clock_generator 0 22 d0No>ID:cWi_7A64in@:E0
+!i122 33
+l20
+L18 12
+VWkDNoW15ZeF^B_RQI[UYn2
+!s100 ]k`QeK95PKLA35SzZ@bPb3
+R7
+31
+R27
+!i10b 1
+R9
+R52
+R53
+!i113 1
+R12
+R13
+Ecode_gen
+R21
+R22
+R3
+R4
+!i122 27
+R0
+Z54 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/code_gen.vhd
+Z55 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/code_gen.vhd
+l0
+L17 1
+VnA>fDUY97]R8M<GS=VVWN1
+!s100 iTn`iCnCAe`:@kC?<@Hf71
+R7
+31
+R46
+!i10b 1
+R40
+Z56 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/code_gen.vhd|
+Z57 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/code_gen.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R3
+R4
+DEx4 work 8 code_gen 0 22 nA>fDUY97]R8M<GS=VVWN1
+!i122 27
+l40
+L26 32
+VgVE8lEmlZ<n:f?7moc1JY0
+!s100 lF503mX8aT?_FEa`L4YmG1
+R7
+31
+R46
+!i10b 1
+R40
+R56
+R57
+!i113 1
+R12
+R13
+Ecoll_ovf
+R21
+R22
+R3
+R4
+!i122 26
+R0
+Z58 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/coll_ovf.vhd
+Z59 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/coll_ovf.vhd
+l0
+L5 1
+V80nXkg9_PEY=_EC]LbT_d0
+!s100 XN3CZBNmS_?j2Dend4ZNj2
+R7
+31
+R46
+!i10b 1
+R40
+Z60 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/coll_ovf.vhd|
+Z61 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/coll_ovf.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R3
+R4
+DEx4 work 8 coll_ovf 0 22 80nXkg9_PEY=_EC]LbT_d0
+!i122 26
+l27
+L16 23
+VNIG[O=?9CSlWB_K^_b88M1
+!s100 Ve1[zAehPIISgjaBEN6QA3
+R7
+31
+R46
+!i10b 1
+R40
+R60
+R61
+!i113 1
+R12
+R13
+Ecounter_trigger
+R21
+R2
+R3
+R4
+!i122 11
+R0
+Z62 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/counter_trigger.vhd
+Z63 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/counter_trigger.vhd
+l0
+Z64 L18 1
+VCgi3lo1fGMj`6075WV0_m3
+!s100 99VhbmoW`L3LP;d=8JE0`2
+R7
+31
+R17
+!i10b 1
+R18
+Z65 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/counter_trigger.vhd|
+Z66 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/counter_trigger.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 15 counter_trigger 0 22 Cgi3lo1fGMj`6075WV0_m3
+!i122 11
+l46
+L34 81
+V4c>O8KSKfVz1mc1lifD?k3
+!s100 8><Y?SR3YTkU<DKf>=3QB0
+R7
+31
+R17
+!i10b 1
+R18
+R65
+R66
+!i113 1
+R12
+R13
+Ed_reg
+Z67 w1622850434
+R2
+R3
+R4
+!i122 0
+R0
+Z68 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/d_reg.vhd
+Z69 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/d_reg.vhd
+l0
+L6 1
+V7V0DN1CnC0CJ?H=<V4EdJ2
+!s100 Poj[OPe;K>fkeiY<IgW9c0
+R7
+31
+Z70 !s110 1627483528
+!i10b 1
+Z71 !s108 1627483528.000000
+Z72 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/d_reg.vhd|
+Z73 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/d_reg.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 5 d_reg 0 22 7V0DN1CnC0CJ?H=<V4EdJ2
+!i122 0
+l23
+L19 19
+VfnBaf?1FUTRDkblCKMBHF3
+!s100 EPS_0BMN<55l6mTBba5eH1
+R7
+31
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R12
+R13
+Edisc_datapath
+R21
+R22
+R3
+R4
+!i122 25
+R0
+Z74 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disc_datapath.vhd
+Z75 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disc_datapath.vhd
+l0
+L5 1
+Vc7HaKoY`dLiijXJ4_<J832
+!s100 LGoBakI=PJldLzgOa;]O=0
+R7
+31
+R46
+!i10b 1
+R40
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disc_datapath.vhd|
+Z77 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disc_datapath.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R3
+R4
+DEx4 work 13 disc_datapath 0 22 c7HaKoY`dLiijXJ4_<J832
+!i122 25
+l130
+L23 173
+VRmM0C_TR>@O8nOI?:g3E_2
+!s100 NElEnMZNlEZk>IKihCaAn1
+R7
+31
+R46
+!i10b 1
+R40
+R76
+R77
+!i113 1
+R12
+R13
+Edisciple_circuit
+R21
+R22
+R23
+R24
+R3
+R4
+!i122 24
+R0
+Z78 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_circuit.vhd
+Z79 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_circuit.vhd
+l0
+L8 1
+VEdFO=RT=FOOW4eZPNI5YJ1
+!s100 [:i0Rf^OXfXb;E7@<DHZ90
+R7
+31
+R46
+!i10b 1
+Z80 !s108 1627483531.000000
+Z81 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_circuit.vhd|
+Z82 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_circuit.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R23
+R24
+R3
+R4
+DEx4 work 16 disciple_circuit 0 22 EdFO=RT=FOOW4eZPNI5YJ1
+!i122 24
+l74
+L33 81
+VbEVfzgKEHd5kQd6`A3;d=2
+!s100 EMRd0;HTAZVOTT86WG??P2
+R7
+31
+R46
+!i10b 1
+R80
+R81
+R82
+!i113 1
+R12
+R13
+Eflsr
+Z83 w1626131698
+R3
+R4
+!i122 1
+R0
+Z84 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/flsr.vhd
+Z85 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/flsr.vhd
+l0
+L4 1
+VHhI6IFMc;^mf5d<dP<>9a0
+!s100 Y6jWSLK^S[4==FPlEH_`Z3
+R7
+31
+R70
+!i10b 1
+R71
+Z86 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/flsr.vhd|
+Z87 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/flsr.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 4 flsr 0 22 HhI6IFMc;^mf5d<dP<>9a0
+!i122 1
+l41
+L13 53
+VZdU`Pk5V]Yn1hhk[4[GDT1
+!s100 X]VgzMRa=KEV^5eFO?T3S0
+R7
+31
+R70
+!i10b 1
+R71
+R86
+R87
+!i113 1
+R12
+R13
+Efsm_disc
+R21
+R22
+R23
+R24
+R3
+R4
+!i122 23
+R0
+Z88 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_control.vhd
+Z89 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_control.vhd
+l0
+L8 1
+V^k[?z:C1o3oknN^LgKn:73
+!s100 0C9:z=7cYigaE?C>YVWXm1
+R7
+31
+Z90 !s110 1627483531
+!i10b 1
+R80
+Z91 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_control.vhd|
+Z92 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/disciple_control.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R23
+R24
+R3
+R4
+DEx4 work 8 fsm_disc 0 22 ^k[?z:C1o3oknN^LgKn:73
+!i122 23
+l36
+L26 228
+V>>HageRj7KN7XO[OGVMUh1
+!s100 Q=Wi95l21:J]US;55jBQ01
+R7
+31
+R90
+!i10b 1
+R80
+R91
+R92
+!i113 1
+R12
+R13
+Efsm_guru
+R14
+R22
+R23
+R24
+R3
+R4
+!i122 22
+R0
+Z93 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_guru.vhd
+Z94 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_guru.vhd
+l0
+R64
+V[Wd^o1d_??noDVe7nY[:H3
+!s100 CkW`__0mASEQ77o40n19k1
+R7
+31
+R90
+!i10b 1
+R80
+Z95 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_guru.vhd|
+Z96 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_guru.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R23
+R24
+R3
+R4
+DEx4 work 8 fsm_guru 0 22 [Wd^o1d_??noDVe7nY[:H3
+!i122 22
+l45
+L35 210
+V5P@^d4JO:dkD<<P44_FlO0
+!s100 =N?haB_U2?SR3P<On:`G@0
+R7
+31
+R90
+!i10b 1
+R80
+R95
+R96
+!i113 1
+R12
+R13
+Efsm_init
+R14
+R22
+R23
+R24
+R3
+R4
+!i122 21
+R0
+Z97 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_init.vhd
+Z98 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_init.vhd
+l0
+R64
+V>LLRS^]XU?oEhn;mIBekM0
+!s100 1CkAmOQo[^HOmfgX^G>Z`0
+R7
+31
+R90
+!i10b 1
+R80
+Z99 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_init.vhd|
+Z100 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_init.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R23
+R24
+R3
+R4
+DEx4 work 8 fsm_init 0 22 >LLRS^]XU?oEhn;mIBekM0
+!i122 21
+l41
+L32 103
+V>;z8Bi=nCOZG2W@HoW3gS0
+!s100 ZiLZoObCK?;kjE:G^]MM42
+R7
+31
+R90
+!i10b 1
+R80
+R99
+R100
+!i113 1
+R12
+R13
+Efsm_main
+R14
+R22
+R23
+R24
+R3
+R4
+!i122 20
+R0
+Z101 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_main.vhd
+Z102 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_main.vhd
+l0
+R64
+V^To3PF`?UA97PLO4c=TXU0
+!s100 :KzEOfk78E3EE7TV;c1H=1
+R7
+31
+R90
+!i10b 1
+R80
+Z103 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_main.vhd|
+Z104 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/fsm_main.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R23
+R24
+R3
+R4
+DEx4 work 8 fsm_main 0 22 ^To3PF`?UA97PLO4c=TXU0
+!i122 20
+l50
+L40 125
+V?ej3fIPQ5ZcAO6YcNQVWa3
+!s100 eT]3iYEa[U196[NjHnI3L2
+R7
+31
+R90
+!i10b 1
+R80
+R103
+R104
+!i113 1
+R12
+R13
+Efull_adder_1
+R14
+R3
+R4
+!i122 10
+R0
+Z105 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/full_adder_1.vhd
+Z106 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/full_adder_1.vhd
+l0
+L4 1
+Vfzj^zKCALBT`?T?bDCL]T1
+!s100 U7E7o[EM5h^><nHQIozZa0
+R7
+31
+R17
+!i10b 1
+R18
+Z107 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/full_adder_1.vhd|
+Z108 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/full_adder_1.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R3
+R4
+DEx4 work 12 full_adder_1 0 22 fzj^zKCALBT`?T?bDCL]T1
+!i122 10
+l19
+L15 14
+V;5D4`L6Di=[0`IFKUPW<Q1
+!s100 XOml`[VzmK4MELTgB=>C]0
+R7
+31
+R17
+!i10b 1
+R18
+R107
+R108
+!i113 1
+R12
+R13
+Eholder
+R14
+R3
+R4
+!i122 9
+R0
+Z109 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/holder.vhd
+Z110 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/holder.vhd
+l0
+L4 1
+VH5@:3@gj`P0zd73N<@0O90
+!s100 TT2EPP`mWY7=YK?AILg4E2
+R7
+31
+R17
+!i10b 1
+R18
+Z111 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/holder.vhd|
+Z112 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/holder.vhd|
+!i113 1
+R12
+R13
+Afsm_arch
+R3
+R4
+DEx4 work 6 holder 0 22 H5@:3@gj`P0zd73N<@0O90
+!i122 9
+l18
+L11 83
+VCGJMk8bUJ4D<X`lgB0G2:3
+!s100 O7<G[DU@mFnh1kNDG?kh>3
+R7
+31
+R17
+!i10b 1
+R18
+R111
+R112
+!i113 1
+R12
+R13
+Emap_monitor
+Z113 w1593901106
+R3
+R4
+!i122 35
+R0
+Z114 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/map_monitor.vhd
+Z115 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/map_monitor.vhd
+l0
+L5 1
+VRPYV2<AKiU^aNk]>dJFV23
+!s100 A@7iH`Sf2bE6M3kmP^L^O1
+R7
+31
+R8
+!i10b 1
+Z116 !s108 1627483534.000000
+Z117 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/map_monitor.vhd|
+Z118 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/map_monitor.vhd|
+!i113 1
+R12
+R13
+Aarch
+R3
+R4
+DEx4 work 11 map_monitor 0 22 RPYV2<AKiU^aNk]>dJFV23
+!i122 35
+l65
+L23 153
+VbDEO67`5I71bEHG:Hm[YP3
+!s100 ?IYPCinmnQ3c5T^gnd7kE0
+R7
+31
+R8
+!i10b 1
+R116
+R117
+R118
+!i113 1
+R12
+R13
+Emem_2port
+R14
+R3
+R4
+!i122 8
+R0
+Z119 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/mem_2port.vhd
+Z120 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/mem_2port.vhd
+l0
+L42 1
+VW@`m]fbkE?[8NizTh1hUD0
+!s100 8T:mK8:B2bd2KoSdJEhf?2
+R7
+31
+R17
+!i10b 1
+R18
+Z121 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/mem_2port.vhd|
+Z122 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/mem_2port.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 9 mem_2port 0 22 W@`m]fbkE?[8NizTh1hUD0
+!i122 8
+l105
+L58 93
+VQ<@_Kb<_JF8eOYS00>H9E1
+!s100 hO?R=FMimJm4RPk][>gT01
+R7
+31
+R17
+!i10b 1
+R18
+R121
+R122
+!i113 1
+R12
+R13
+Enum_gen
+Z123 w1625750603
+R2
+R3
+R4
+R22
+!i122 19
+R0
+Z124 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen.vhd
+Z125 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen.vhd
+l0
+L7 1
+Vde;RD]LnogmRJBN6kc[bE1
+!s100 AOMfXz`G@O>;=b5@1YWPS1
+R7
+31
+R90
+!i10b 1
+R80
+Z126 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen.vhd|
+Z127 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+R22
+DEx4 work 7 num_gen 0 22 de;RD]LnogmRJBN6kc[bE1
+!i122 19
+l55
+L24 58
+VlkgU5nNT6eU1CTUiXzIoJ2
+!s100 ad[WF;jTGCVE`Y>TX8@m_2
+R7
+31
+R90
+!i10b 1
+R80
+R126
+R127
+!i113 1
+R12
+R13
+Enum_gen_disc
+Z128 w1626137454
+R2
+R3
+R4
+R22
+!i122 18
+R0
+Z129 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc.vhd
+Z130 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc.vhd
+l0
+L7 1
+Voa@=jm<5Se36`BVYTeO`S1
+!s100 7`3T02lQ24lhem37R:2Y02
+R7
+31
+R90
+!i10b 1
+Z131 !s108 1627483530.000000
+Z132 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc.vhd|
+Z133 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+R22
+DEx4 work 12 num_gen_disc 0 22 oa@=jm<5Se36`BVYTeO`S1
+!i122 18
+l54
+L24 70
+VA[[3AJBBSl@`0SThDzWMh3
+!s100 LQLChFe41;Y]QbVCA5XfB1
+R7
+31
+R90
+!i10b 1
+R131
+R132
+R133
+!i113 1
+R12
+R13
+Enum_gen_disc_rand
+R14
+R2
+R3
+R4
+R22
+!i122 17
+R0
+Z134 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc_rand.vhd
+Z135 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc_rand.vhd
+l0
+Z136 L19 1
+VBJc9cX[^;AM1bRodN4AC<0
+!s100 >ZOja0FQZoG5id[0MG@li0
+R7
+31
+Z137 !s110 1627483530
+!i10b 1
+R131
+Z138 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc_rand.vhd|
+Z139 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_disc_rand.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+R22
+DEx4 work 17 num_gen_disc_rand 0 22 BJc9cX[^;AM1bRodN4AC<0
+!i122 17
+l46
+Z140 L34 27
+VEBZll=B@?RD2=Hf=X3?I`3
+!s100 bkXdO8z4gkP459io]jINB3
+R7
+31
+R137
+!i10b 1
+R131
+R138
+R139
+!i113 1
+R12
+R13
+Enum_gen_rand
+R14
+R2
+R3
+R4
+R22
+!i122 16
+R0
+Z141 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_rand.vhd
+Z142 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_rand.vhd
+l0
+R136
+VOBjPb6k686XjURYEGEzR`3
+!s100 6HiY:N0PYHI9jafOLooI`1
+R7
+31
+R137
+!i10b 1
+R131
+Z143 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_rand.vhd|
+Z144 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/num_gen_rand.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+R22
+DEx4 work 12 num_gen_rand 0 22 OBjPb6k686XjURYEGEzR`3
+!i122 16
+l46
+R140
+V@YbnSjN9ZP2235zXJCY671
+!s100 f@F612KEc:eJ<]8FBbbH93
+R7
+31
+R137
+!i10b 1
+R131
+R143
+R144
+!i113 1
+R12
+R13
+Erc_adder
+R14
+R3
+R4
+!i122 6
+R0
+Z145 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/rc_adder_1.vhd
+Z146 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/rc_adder_1.vhd
+l0
+L4 1
+V31D@D7D`<c<?3JaCRPEVK3
+!s100 dh9P[e_Qjd:K:FFd_iH9E3
+R7
+31
+R17
+!i10b 1
+R71
+Z147 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/rc_adder_1.vhd|
+Z148 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/rc_adder_1.vhd|
+!i113 1
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 8 rc_adder 0 22 31D@D7D`<c<?3JaCRPEVK3
+!i122 6
+l36
+L20 29
+VzDBNgRH[az`O:Oi9o7dXI2
+!s100 @6fOecCmge@=dD;]2FdHM1
+R7
+31
+R17
+!i10b 1
+R71
+R147
+R148
+!i113 1
+R12
+R13
+Ereferee
+R14
+R3
+R4
+!i122 5
+R0
+Z149 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/referee.vhd
+Z150 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/referee.vhd
+l0
+L4 1
+VNQhT[O2iYBLE1WLNCfU6a1
+!s100 jhi?D0E2^=9N2bcRlz>:21
+R7
+31
+R70
+!i10b 1
+R71
+Z151 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/referee.vhd|
+Z152 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/referee.vhd|
+!i113 1
+R12
+R13
+Afsm_arch
+R3
+R4
+DEx4 work 7 referee 0 22 NQhT[O2iYBLE1WLNCfU6a1
+!i122 5
+l30
+L14 362
+V5n@1lHSJSI57oQnVjm@HK1
+!s100 e46=mdJ9g]CJhJFAMlNh^2
+R7
+31
+R70
+!i10b 1
+R71
+R151
+R152
+!i113 1
+R12
+R13
+Ereg
+R14
+R2
+R3
+R4
+!i122 4
+R0
+Z153 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg.vhd
+Z154 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg.vhd
+l0
+L6 1
+VO[C1MnA_1Fln4__EF>5903
+!s100 HEURK=l33WVUNHFg;8hR:0
+R7
+31
+R70
+!i10b 1
+R71
+Z155 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg.vhd|
+Z156 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+DEx4 work 3 reg 0 22 O[C1MnA_1Fln4__EF>5903
+!i122 4
+l26
+L22 21
+VYiI]l6[akhWXokG>:WUf10
+!s100 C<ognD=aZnAYag]TBj[R:1
+R7
+31
+R70
+!i10b 1
+R71
+R155
+R156
+!i113 1
+R12
+R13
+Ereg_bank
+R14
+R22
+R3
+R4
+!i122 15
+R0
+Z157 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg_bank -template.vhd
+Z158 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg_bank -template.vhd
+l0
+L6 1
+VMTdNh<HfZC`2`MUz;T1l;2
+!s100 CI]L=XA>oHk6EoE:bAiB=3
+R7
+31
+R137
+!i10b 1
+R131
+Z159 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg_bank -template.vhd|
+Z160 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/reg_bank -template.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R3
+R4
+DEx4 work 8 reg_bank 0 22 MTdNh<HfZC`2`MUz;T1l;2
+!i122 15
+l63
+L28 105
+VKJFhjWzWZjJzck@P:jgFY3
+!s100 HcVCXMlXFa_1e<^]X2g7D0
+R7
+31
+R137
+!i10b 1
+R131
+R159
+R160
+!i113 1
+R12
+R13
+Estep_counter
+R14
+R22
+R2
+R3
+R4
+!i122 14
+R0
+Z161 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/step_counter.vhd
+Z162 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/step_counter.vhd
+l0
+L6 1
+V[<]ZoDd8Al@8b8^Xj@g<Q1
+!s100 ;gPdWLEaleSe1fT5?VV9L3
+R7
+31
+R137
+!i10b 1
+R131
+Z163 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/step_counter.vhd|
+Z164 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/step_counter.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R2
+R3
+R4
+DEx4 work 12 step_counter 0 22 [<]ZoDd8Al@8b8^Xj@g<Q1
+!i122 14
+l37
+L25 73
+V6]NJ`R]@Di^Hj0?3?nQHV0
+!s100 ZZo>B5N8FR:C<z3:Og^2I2
+R7
+31
+R137
+!i10b 1
+R131
+R163
+R164
+!i113 1
+R12
+R13
+Estimuli_wisdom
+Z165 w1627483503
+R22
+R2
+R3
+R4
+!i122 36
+R0
+Z166 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/stimuli_wisdom.vhd
+Z167 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/stimuli_wisdom.vhd
+l0
+L7 1
+V[WQG4?2hQVC=ZSMkKzf?f2
+!s100 `N7inlOh7=kIIBeR?EY5n3
+R7
+31
+R8
+!i10b 1
+R116
+Z168 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/stimuli_wisdom.vhd|
+Z169 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/stimuli_wisdom.vhd|
+!i113 1
+R12
+R13
+Atest
+R22
+R2
+R3
+R4
+DEx4 work 14 stimuli_wisdom 0 22 [WQG4?2hQVC=ZSMkKzf?f2
+!i122 36
+l48
+L25 101
+VD4_[750fP3=n9BAfB[bjB1
+!s100 0<GU4=`bQhf2e`9jbi`6?1
+R7
+31
+R8
+!i10b 1
+R116
+R168
+R169
+!i113 1
+R12
+R13
+Etb_wisdom
+Z170 w1593966618
+R22
+R2
+R3
+R4
+!i122 37
+R0
+Z171 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/tb_wisdom.vhd
+Z172 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/tb_wisdom.vhd
+l0
+L6 1
+V:_>69aJ0Ra:>lUWi`1=mz2
+!s100 >RN9YgcWk<MQ?<SVm_CYV1
+R7
+31
+R8
+!i10b 1
+R116
+Z173 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/tb_wisdom.vhd|
+!s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/tb_wisdom.vhd|
+!i113 1
+R12
+R13
+Atest
+R22
+R2
+R3
+R4
+DEx4 work 9 tb_wisdom 0 22 :_>69aJ0Ra:>lUWi`1=mz2
+!i122 37
+l71
+L12 100
+V9VmmjgKRH:HN9el@F6co:3
+!s100 NXcmfl2OPT8D^Can0m6ML3
+R7
+31
+R8
+!i10b 1
+R116
+R173
+Z174 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/tb_global/tb_wisdom.vhd|
+!i113 1
+R12
+R13
+Ewisdom_circuit
+R14
+R22
+R2
+R3
+R4
+!i122 13
+R0
+Z175 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit.vhd
+Z176 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit.vhd
+l0
+L6 1
+VT:?OY?4iAULagdc0=ndA<1
+!s100 ^W4n@e;9Rk5JR6QMP^WnH1
+R7
+31
+R137
+!i10b 1
+R131
+Z177 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit.vhd|
+Z178 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R2
+R3
+R4
+DEx4 work 14 wisdom_circuit 0 22 T:?OY?4iAULagdc0=ndA<1
+!i122 13
+l96
+L27 125
+ViU4FPSQn_QG>BH>?hOI<a3
+!s100 <;00kmZgdc`MZLKZh<SLN0
+R7
+31
+R137
+!i10b 1
+R131
+R177
+R178
+!i113 1
+R12
+R13
+Ewisdom_circuit_with_referee
+R14
+R22
+R2
+R3
+R4
+!i122 12
+R0
+Z179 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit_with_referee.vhd
+Z180 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit_with_referee.vhd
+l0
+R45
+V9UYEiWN?FPCE>cfeLW3]D3
+!s100 VinQVgJ04mHZ:HJ4CFaUg3
+R7
+31
+R137
+!i10b 1
+R18
+Z181 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit_with_referee.vhd|
+Z182 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_circuit_with_referee.vhd|
+!i113 1
+R12
+R13
+Aarch
+R22
+R2
+R3
+R4
+DEx4 work 27 wisdom_circuit_with_referee 0 22 9UYEiWN?FPCE>cfeLW3]D3
+!i122 12
+l121
+L37 194
+VIz[geo6R<NGSYU64mLmKY2
+!s100 QN=[UKafCYj^mClj@0RlP0
+R7
+31
+R137
+!i10b 1
+R18
+R181
+R182
+!i113 1
+R12
+R13
+Pwisdom_package
+R3
+R4
+!i122 3
+R14
+R0
+8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_package.vhd
+F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_package.vhd
+l0
+L4 1
+VOX49O`T:?4OclS3_L790M0
+!s100 Ea]:9z0Rn;SR=OP18OAaA1
+R7
+31
+R70
+!i10b 1
+R71
+!s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_package.vhd|
+!s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/wisdom_package.vhd|
+!i113 1
+R12
+R13
+Exor2
+R14
+R3
+R4
+!i122 2
+R0
+Z183 8/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/xor2.vhd
+Z184 F/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/xor2.vhd
+l0
+L4 1
+V1BK4Tj^N4JEG?YZ?eiC>l0
+!s100 Qbf=jin8XYd7]0V_`F]`h0
+R7
+31
+R70
+!i10b 1
+R71
+Z185 !s90 -reportprogress|300|-93|-work|work|/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/xor2.vhd|
+Z186 !s107 /home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Final/VHDL/xor2.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R3
+R4
+DEx4 work 4 xor2 0 22 1BK4Tj^N4JEG?YZ?eiC>l0
+!i122 2
+l12
+L10 5
+VjK<_5iaHMUR_^9;RJ1Z;I2
+!s100 h1ENI[zddWB0::GBXd3772
+R7
+31
+R70
+!i10b 1
+R71
+R185
+R186
+!i113 1
+R12
+R13

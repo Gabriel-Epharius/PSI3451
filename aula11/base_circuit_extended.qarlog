@@ -1,0 +1,58 @@
+Quartus Prime Archive log --	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.qarlog
+
+Archive:	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.qar
+Date:		Mon Jun 28 17:23:31 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/alu.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.qpf
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.qsf
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_control.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_datapath.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/button_handler.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/clock_generator.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/code_gen.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/coll_ovf.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/comparator.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/counter_trigger.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/fsm_guru.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/fsm_init.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/fsm_main.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/full_adder.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/galois_2bits.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/holder.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/mem_2port.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/num_gen.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/or2.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/rand_num.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/rc_adder.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/referee.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/reg.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/reg_bank.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/run_sim.txt
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/step_counter.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/stimuli_base_circuit_extended.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/tb_base_circuit_extended.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/wisdom_circuit.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/wisdom_package.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/xor2.vhd
+/opt/altera/19.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 35 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Jun 29 10:53:54 2021
+Source archive file:	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.qar
+Archive was extracted into	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Thu Jul  1 10:53:41 2021
+Source archive file:	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula11/base_circuit_extended.qar
+Archive was extracted into	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/aula12/
+		 - successfully.

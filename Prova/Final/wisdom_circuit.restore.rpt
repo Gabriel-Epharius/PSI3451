@@ -1,0 +1,129 @@
+Restore Archived Project report for wisdom_circuit
+Thu Jul 15 09:00:53 2021
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Jul 15 09:00:53 2021 ;
+; Revision Name                   ; wisdom_circuit                        ;
+; Top-level Entity Name           ; wisdom_circuit                        ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Warning (292006): Can't contact license server "1800@license" -- this server will be ignored.
+Warning (292006): Can't contact license server "1800@license.lme.usp.br" -- this server will be ignored.
+Info: Successfully restored '/home/gabriel/Desktop/POLI/9Semestre/PSI3451/wisdow.qar' into the '/home/gabriel/Desktop/POLI/9Semestre/PSI3451/wisdow/' directory
+Info: Generated report 'wisdom_circuit.restore.rpt'
+Info (23030): Evaluation of Tcl script /opt/altera/19.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 1008 megabytes
+    Info: Processing ended: Thu Jul 15 09:00:53 2021
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------------------------------+
+; Files Restored                         ;
++----------------------------------------+
+; File Name                              ;
++----------------------------------------+
+; qar_info.json                          ;
+; VHDL/Duohold_fit.vhd                   ;
+; VHDL/FSM_REF.vhd                       ;
+; VHDL/address_counter.vhd               ;
+; VHDL/base_circuit.vhd                  ;
+; VHDL/base_control.vhd                  ;
+; VHDL/base_datapath.vhd                 ;
+; VHDL/button_handler.vhd                ;
+; VHDL/circuit_wisdom_aula_11.vhd        ;
+; VHDL/code_gen.vhd                      ;
+; VHDL/coll_ovf.vhd                      ;
+; VHDL/comparator.vhd                    ;
+; VHDL/counter_trigger.vhd               ;
+; VHDL/d_reg.vhd                         ;
+; VHDL/disc_datapath.vhd                 ;
+; VHDL/disciple_circuit.vhd              ;
+; VHDL/disciple_control.vhd              ;
+; VHDL/flsr.vhd                          ;
+; VHDL/fsm_guru.vhd                      ;
+; VHDL/fsm_init.vhd                      ;
+; VHDL/fsm_main.vhd                      ;
+; VHDL/full_adder_1.vhd                  ;
+; VHDL/galois.vhd                        ;
+; VHDL/holder.vhd                        ;
+; VHDL/map_monitor.vhd                   ;
+; VHDL/mem_2port.vhd                     ;
+; VHDL/new_alu.vhd                       ;
+; VHDL/num_gen.vhd                       ;
+; VHDL/num_gen_disc.vhd                  ;
+; VHDL/num_gen_disc_rand.vhd             ;
+; VHDL/num_gen_rand.vhd                  ;
+; VHDL/or2.vhd                           ;
+; VHDL/rc_adder_1.vhd                    ;
+; VHDL/referee.vhd                       ;
+; VHDL/reg.vhd                           ;
+; VHDL/reg_bank -template.vhd            ;
+; VHDL/step_counter.vhd                  ;
+; VHDL/tb/Alert_check.vhd                ;
+; VHDL/tb/Alert_gen.vhd                  ;
+; VHDL/tb/clock_generator.vhd            ;
+; VHDL/tb/fifo_1.vhd                     ;
+; VHDL/tb/message_print.vhd              ;
+; VHDL/tb/run_sim.txt                    ;
+; VHDL/tb/step_addr_check.vhd            ;
+; VHDL/tb/stimuli_disciple.vhd           ;
+; VHDL/tb/tb_disciple.vhd                ;
+; VHDL/wisdom_circuit.vhd                ;
+; VHDL/wisdom_circuit_with_referee.vhd   ;
+; VHDL/wisdom_package.vhd                ;
+; VHDL/xor2.vhd                          ;
+; wisdom_circuit.qpf                     ;
+; wisdom_circuit.qsf                     ;
+; wisdom_circuit_assignment_defaults.qdf ;
++----------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

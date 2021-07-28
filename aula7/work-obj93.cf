@@ -1,0 +1,4 @@
+v 4
+file . "d_reg.vhd" "2682bc87ae5fd8a220fe75095c26d09f48d6e037" "20210527130339.989":
+  entity d_reg at 1( 0) + 0 on 11;
+  architecture arch of d_reg at 19( 301) + 0 on 12;

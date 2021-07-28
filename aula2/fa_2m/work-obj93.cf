@@ -1,0 +1,10 @@
+v 4
+file . "full_adder_2.vhd" "3abf8a60d578d4c8d2da6c954faa30030486a9f1" "20210422140512.090":
+  entity full_adder_2 at 1( 0) + 0 on 11;
+  architecture structural of full_adder_2 at 14( 182) + 0 on 12;
+  entity and2 at 48( 1079) + 0 on 13;
+  architecture dataflow of and2 at 57( 1242) + 0 on 14;
+  entity xor2 at 63( 1331) + 0 on 15;
+  architecture dataflow of xor2 at 72( 1494) + 0 on 16;
+  entity or3 at 78( 1583) + 0 on 17;
+  architecture dataflow of or3 at 87( 1746) + 0 on 18;

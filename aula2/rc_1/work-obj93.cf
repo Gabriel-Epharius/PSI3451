@@ -1,0 +1,17 @@
+v 4
+file . "rc_adder_1.vhd" "68f06989d52722c407cd04858af7ec060191dfbe" "20210422150432.930":
+  entity full_adder_2 at 1( 0) + 0 on 39;
+  architecture structural of full_adder_2 at 14( 169) + 0 on 40;
+  entity and2 at 48( 1032) + 0 on 41;
+  architecture dataflow of and2 at 57( 1186) + 0 on 42;
+  entity xor2 at 63( 1269) + 0 on 43;
+  architecture dataflow of xor2 at 72( 1423) + 0 on 44;
+  entity or3 at 78( 1506) + 0 on 45;
+  architecture dataflow of or3 at 87( 1660) + 0 on 46;
+  entity rc_adder_1 at 93( 1745) + 0 on 47;
+  architecture structural of rc_adder_1 at 112( 2032) + 0 on 48;
+file . "somador_generico.vhd" "7256de8df7d6046d1dc851a2d9e7a45a2769e98f" "20210422144703.325":
+  entity fa at 1( 0) + 0 on 25;
+  architecture structural of fa at 8( 84) + 0 on 26;
+  entity somador at 15( 213) + 0 on 27;
+  architecture estrutural of somador at 27( 414) + 0 on 28;

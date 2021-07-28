@@ -1,0 +1,24 @@
+#
+#
+# 
+# 06/10/21 12:47:31
+set_working_dir C:/psi3451/aula9/base_control_1/fonte
+load_library tsmc035_typ
+load_library tsmc035_typ
+set_working_dir C:/psi3451/aula9/base_control_1/sintese
+read -technology "tsmc035_typ"  { C:/psi3451/aula9/base_control_1/fonte/wisdom_package.vhd C:/psi3451/aula9/base_control_1/fonte/counter_trigger.vhd C:/psi3451/aula9/base_control_1/fonte/adk.vhd C:/psi3451/aula9/base_control_1/fonte/adk_comp.vhd C:/psi3451/aula9/base_control_1/fonte/fsm_guru.vhd C:/psi3451/aula9/base_control_1/fonte/fsm_init.vhd C:/psi3451/aula9/base_control_1/fonte/fsm_main.vhd C:/psi3451/aula9/base_control_1/fonte/base_control.vhd }
+### Previous Command Failed
+
+read -technology "tsmc035_typ"  { C:/psi3451/aula9/base_control_1/fonte/wisdom_package.vhd C:/psi3451/aula9/base_control_1/fonte/counter_trigger.vhd C:/psi3451/aula9/base_control_1/fonte/fsm_guru.vhd C:/psi3451/aula9/base_control_1/fonte/fsm_init.vhd C:/psi3451/aula9/base_control_1/fonte/fsm_main.vhd C:/psi3451/aula9/base_control_1/fonte/base_control.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+view_schematic -rtl -view
+set register2register 3.333333
+set input2register 3.333333
+set register2output 3.333333
+optimize .work.base_control.arch -target tsmc035_typ -macro -auto -effort standard -hierarchy auto 
+optimize_timing .work.base_control.arch 
+optimize .work.base_control.arch -target tsmc035_typ -macro -auto -effort standard -hierarchy auto 
+optimize_timing .work.base_control.arch 
+view_schematic -rtl -view
+report_delay -num_paths 1 -show_schematic 1 -critical_paths

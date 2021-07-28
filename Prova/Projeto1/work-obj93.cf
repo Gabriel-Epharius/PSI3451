@@ -1,0 +1,10 @@
+v 4
+file . "d_reg.vhd" "2682bc87ae5fd8a220fe75095c26d09f48d6e037" "20210727183905.038":
+  entity d_reg at 1( 0) + 0 on 15;
+  architecture arch of d_reg at 19( 301) + 0 on 16;
+file . "flsr.vhd" "aeef510a0cdd0118ccd57c04bc8b04bcab3fe0f4" "20210727183848.782":
+  entity flsr at 1( 0) + 0 on 11;
+  architecture arch of flsr at 13( 221) + 0 on 12;
+file . "or2.vhd" "fdf31d909f1f5912a8cefcba5348ee9204230861" "20210727183856.927":
+  entity or2 at 1( 0) + 0 on 13;
+  architecture dataflow of or2 at 10( 151) + 0 on 14;

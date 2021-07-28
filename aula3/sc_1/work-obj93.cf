@@ -1,0 +1,5 @@
+v 4
+file . "step_counter_1.vhd" "02045937a971e5771b21a3972d978f07dd256914" "20210429135247.305":
+  package my_package at 1( 0) + 0 on 11;
+  entity step_counter at 14( 496) + 0 on 12;
+  architecture arch of step_counter at 38( 1087) + 0 on 13;

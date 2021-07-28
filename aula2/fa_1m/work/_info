@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/fa_1m
+Efull_adder_1
+Z1 w1619099287
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 6
+R0
+Z4 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/fa_1m/full_adder_1.vhd
+Z5 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/fa_1m/full_adder_1.vhd
+l0
+L4 1
+VL=5V4?jbB2PL]JY8:N[no2
+!s100 mNJ^[Me8_7?SRlQIjU@Qa2
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1619099296
+!i10b 1
+Z8 !s108 1619099296.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/fa_1m/full_adder_1.vhd|
+!s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/fa_1m/full_adder_1.vhd|
+!i113 1
+Z10 o-work work
+Z11 tExplicit 1 CvgOpt 0
+Adataflow
+R2
+R3
+DEx4 work 12 full_adder_1 0 22 L=5V4?jbB2PL]JY8:N[no2
+!i122 6
+l19
+L15 14
+VNI=nP:2NcN6<Jz61H<_;S3
+!s100 O09^Qo1>[Z[0L;SRL]G`b3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/fa_1m/full_adder_1.vhd|
+!i113 1
+R10
+R11

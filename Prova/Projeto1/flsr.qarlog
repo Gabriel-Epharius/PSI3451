@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.qarlog
+
+Archive:	/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.qar
+Date:		Tue Jul 27 15:59:22 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/clock_generator.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/d_reg.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.qpf
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.qsf
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/flsr.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/or2.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/rand_num.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/stimuli.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/testbench_rand_num.vhd
+/home/gabriel/Desktop/POLI/9Semestre/PSI3451/Prova/Projeto 1/xor2.vhd
+/opt/altera/19.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

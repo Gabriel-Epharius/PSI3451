@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "flags_2_dp.cg_sel.DUO",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.cg_sel.DISC",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.cg_sel.BLANK",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.rb_out_sel.REG_GURU_PREV_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.rb_out_sel.REG_GURU_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.rb_PRE_GURU_en",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.rb_GURU_en",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.alu_ctrl",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_dp.ng_cte_incr",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_mem.cg_sel.DUO",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_mem.cg_sel.DISC",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_mem.cg_sel.BLANK",
+					"strict" : false
+				},
+				{
+					"name" : "flags_2_mem.mem_wr_en",
+					"strict" : false
+				},
+				{
+					"name" : "res",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "duo_formed",
+					"strict" : false
+				},
+				{
+					"name" : "go_disc",
+					"strict" : false
+				},
+				{
+					"name" : "end_of_disc",
+					"strict" : false
+				},
+				{
+					"name" : "guru_well_behind",
+					"strict" : false
+				},
+				{
+					"name" : "start_step",
+					"strict" : false
+				},
+				{
+					"name" : "cnt_disc_rdy",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

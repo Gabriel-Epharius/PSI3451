@@ -1,0 +1,4 @@
+v 4
+file . "full_adder_3.vhd" "3af84b42cdb3d5bae094f45c0bbaf4dfd2259a80" "20210429115133.061":
+  entity full_adder at 1( 0) + 0 on 13;
+  architecture behaviour of full_adder at 14( 163) + 0 on 14;

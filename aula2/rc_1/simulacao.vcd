@@ -1,0 +1,16 @@
+$date
+	Thu Apr 22 12:12:02 2021
+$end
+$version
+	ModelSim Version 2021.1
+$end
+$timescale
+	1ps
+$end
+$scope module rc_adder_1 $end
+$var wire 1 ! c_i $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0!

@@ -1,0 +1,11 @@
+cd /home/gabriel/Desktop/POLI/9Semestre/PSI3451/PROJETO
+
+
+vcom -work work /home/gabriel/Desktop/POLI/9Semestre/PSI3451/PROJETO/testbench_rand_num.vhd
+
+vsim work.tb_rand_num
+
+add wave sim:/tb_rand_num/*
+run 100ns
+
+

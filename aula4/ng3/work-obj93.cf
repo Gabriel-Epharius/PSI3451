@@ -1,0 +1,4 @@
+v 4
+file . "num_gen_3.vhd" "669838c4e4c323dcc2f6e707463839ab475f3a6c" "20210506154554.902":
+  entity num_gen_with_function at 13( 431) + 0 on 11;
+  architecture arch of num_gen_with_function at 33( 804) + 0 on 12;

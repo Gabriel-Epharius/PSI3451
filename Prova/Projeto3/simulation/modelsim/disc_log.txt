@@ -1,0 +1,323 @@
+INICIO DA SIMULACAO
+
+
+PASSO 1   
+
+
+GERACAO DE NUMERO ALEATORIO
+
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+INDO PARA A PRIMEIRA LINHA
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+PRIMEIRA LINHA CRUZADA
+
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+***
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+segue 
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+*** ERRO: Sinal end_of_disciple não ocorreu no passo 9 
+
+
+NOVA RODADA PARA VERIFICAR DUO-FORMED
+
+
+PASSO 1   
+
+
+GERACAO DE NUMERO ALEATORIO
+
+
+  Escrita realizada
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+INDO PARA A PRIMEIRA LINHA
+
+
+  Escrita realizada para DUO
+
+  Escrita realizada para BLANK
+
+ULTRAPASSADA A PRIMEIRA LINHA
+
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+***
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+*** ERRO: Sinal end_of_disciple não ocorreu no passo 9 
+
+
+NOVA RODADA PARA VERIFICAR RIGHT-BEHIND
+
+
+PASSO 1   
+
+
+GERACAO DE NUMERO ALEATORIO
+
+
+  Escrita realizada
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+  Escrita realizada para DISC
+
+  Escrita realizada para BLANK
+
+ NOVO PASSO 
+
+
+ULTRAPASSADA A PRIMEIRA LINHA
+
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+***
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+DETECTADO: sinal end_of_disciple ativado
+
+ NOVO PASSO 
+
+
+*** ERRO: Sinal end_of_disciple não ocorreu no passo 9 
+
+

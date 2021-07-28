@@ -1,0 +1,216 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/rc_1
+Eand2
+Z1 w1619103868
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/rc_1/rc_adder_1.vhd
+Z5 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/rc_1/rc_adder_1.vhd
+l0
+L51 1
+VZc@khUeMj^N;eHD]60eRi1
+!s100 g1HKKE]Oi7d`>ZcTaj^NB0
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1619104076
+!i10b 1
+Z8 !s108 1619104076.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/rc_1/rc_adder_1.vhd|
+!s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/rc_1/rc_adder_1.vhd|
+!i113 1
+Z10 o-work work
+Z11 tExplicit 1 CvgOpt 0
+Adataflow
+R2
+R3
+DEx4 work 4 and2 0 22 Zc@khUeMj^N;eHD]60eRi1
+!i122 0
+l59
+L57 5
+V`3GnaGn;f3cgm6?bFC^660
+!s100 G7zQ4477I9kW48A@1J2i62
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/Aula2/rc_1/rc_adder_1.vhd|
+!i113 1
+R10
+R11
+Efull_adder_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L4 1
+VjHU`QPf8e52RJDLdWJJIL2
+!s100 3fBSlojIR39BE:d<dKXk80
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Astructural
+R2
+R3
+DEx4 work 12 full_adder_2 0 22 jHU`QPf8e52RJDLdWJJIL2
+!i122 0
+l36
+L14 33
+VmTQ23^@SAg68>Qh5>NeMm0
+!s100 a34S2W]O:Wn:_CjVi>e^43
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Eor3
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L81 1
+Vk`lY>4FWdM>O2>VM=i1lV3
+!s100 RYO2b4ETk_1cnDN`<6;B[2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Adataflow
+R2
+R3
+DEx4 work 3 or3 0 22 k`lY>4FWdM>O2>VM=i1lV3
+!i122 0
+l89
+L87 5
+Vcdi8=>G54MC2mVK1B`UN02
+!s100 6oe`1^`<]GE0MRV=90PDC1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Erc_adder_1
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L96 1
+V:3]AOGaO04zf:0VC`=?0J0
+!s100 9mn>LAEBoU<B>UY4EnO9H1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Astructural
+R2
+R3
+DEx4 work 10 rc_adder_1 0 22 :3]AOGaO04zf:0VC`=?0J0
+!i122 0
+l125
+L112 29
+VS<@0W0NZf008T@?c2Jo;A0
+!s100 3dRoF6GJQf4BkK7Dzk2Tz1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Exor2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L66 1
+V9@W9mM?@;nZ808O498adO1
+!s100 X5R2j1<UTA`XJBodV^GGh2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11
+Adataflow
+R2
+R3
+DEx4 work 4 xor2 0 22 9@W9mM?@;nZ808O498adO1
+!i122 0
+l74
+L72 5
+VO>m67jSWQ_l]CC>JXd3l?3
+!s100 42N11?6ZDJ]4DYY2fH2io3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R12
+!i113 1
+R10
+R11

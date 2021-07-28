@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif
+Efull_adder_1
+Z1 w1620911545
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/rc_adder_2.vhd
+Z5 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/rc_adder_2.vhd
+l0
+L4 1
+VL=5V4?jbB2PL]JY8:N[no2
+!s100 mNJ^[Me8_7?SRlQIjU@Qa2
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1620911621
+!i10b 1
+Z8 !s108 1620911621.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/rc_adder_2.vhd|
+Z10 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/rc_adder_2.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Adataflow
+R2
+R3
+DEx4 work 12 full_adder_1 0 22 L=5V4?jbB2PL]JY8:N[no2
+!i122 0
+l19
+L15 14
+V5DzNVD4:[^MZY9jIJ]Ni[1
+!s100 9e:lHcDIHG]oBohT4JRFW0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Erc_adder_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L33 1
+VkQOenGcQL^d2cPX[6gU^Z1
+!s100 :Ek?1>B9B_^0X=V^4lgPo2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 10 rc_adder_2 0 22 kQOenGcQL^d2cPX[6gU^Z1
+!i122 0
+l61
+L49 25
+Vg>hS]1cUkOXBW]M5QKJha3
+!s100 O>4<S`AA?JJRFbEDi@[_F2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Estimuli_module
+Z13 w1620911560
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 1
+R0
+Z15 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/stimuli_rc_adder.vhd
+Z16 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/stimuli_rc_adder.vhd
+l0
+L5 1
+Vo@C8ZibaL:?[HB3fWfHNJ0
+!s100 2zTnG[762JjL76hAPm1>=0
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/stimuli_rc_adder.vhd|
+Z18 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/stimuli_rc_adder.vhd|
+!i113 1
+R11
+R12
+Atest
+R14
+R2
+R3
+DEx4 work 14 stimuli_module 0 22 o@C8ZibaL:?[HB3fWfHNJ0
+!i122 1
+l23
+L18 39
+V:PPlnoG^TSEDAW=N6Idz51
+!s100 6gUH1F]7TYe?OdbQOOoH:2
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etb_rc_adder
+Z19 w1585329754
+R14
+R2
+R3
+!i122 2
+R0
+Z20 8/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/testbench_rc_adder.vhd
+Z21 F/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/testbench_rc_adder.vhd
+l0
+L5 1
+V3HIm2`;jak9il_H>FMeIj2
+!s100 n:V[8a;Zc;YTTKN5F:k1V1
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|/home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/testbench_rc_adder.vhd|
+!s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/testbench_rc_adder.vhd|
+!i113 1
+R11
+R12
+Atest
+R14
+R2
+R3
+DEx4 work 11 tb_rc_adder 0 22 3HIm2`;jak9il_H>FMeIj2
+!i122 2
+l44
+L11 53
+V1E2hi8Z=QcZZ_P1>e2Q0M1
+!s100 NAkbnN=9HMD0`c;^7@_b62
+R6
+32
+R7
+!i10b 1
+R8
+R22
+Z23 !s107 /home/gabriel/Desktop/POLI/9 Semestre/PSI3451- Projeto de Circuitos Lógicos Integrados/aula5/rca_2_tb_modif/testbench_rc_adder.vhd|
+!i113 1
+R11
+R12
